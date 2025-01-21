@@ -13,18 +13,26 @@
         <a href="#" class="logo">Leonardo</a>
         <nav>
             <a href="#">Home</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
+            <a href="#projetos">Projetos (Projects)</a>
+            <a href="#contato">Contato (Contact)</a>
         </nav>
+        <div>
+            <button class="flag-button" data-language="en">
+                <img src="https://flagcdn.com/us.svg" alt="English">
+            </button>
+            <button class="flag-button" data-language="br">
+                <img src="https://flagcdn.com/br.svg" alt="Brazil">
+            </button>
+        </div>
     </header>
     <section class="home">
         <div class="home-img">
             <img src="img/main.jpeg" alt="">
         </div>
         <div class="home-content">
-            <h1>Olá, sou <span>Leonardo</span></h1>
-            <h3 class="digitando">Sou um <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=34&pause=1000&color=FD3D3D&width=435&lines=Engenheiro+de+Software;Desenvolvedor+Full+Stack" alt="Typing SVG" /></a></h3>
-            <p>Sou estudante de Engenharia de Software na Universidade Positivo e programador web com experiência em projetos freelance. Tenho conhecimento em tecnologias como HTML, CSS, JavaScript, C# e SQL, focando sempre em entregar soluções eficientes e de qualidade. Tenho experiência tanto no desenvolvimento front-end quanto back-end e estou sempre em busca de novos desafios para aprimorar minhas habilidades.</p>
+            <h1 id="title">Olá, sou <span class="myname" id="myname">Leonardo</span></h1>
+            <h3 id="digitando" class="digitando">Sou um <h3 id="engs" class="engs">Engenheiro de Software</h3></h3>
+            <p id="description">Sou estudante de Engenharia de Software na Universidade Positivo e programador web com experiência em projetos freelance. Tenho conhecimento em tecnologias como HTML, CSS, JavaScript, C# e SQL, focando sempre em entregar soluções eficientes e de qualidade. Tenho experiência tanto no desenvolvimento front-end quanto back-end e estou sempre em busca de novos desafios para aprimorar minhas habilidades.</p>
             <div class="social-icon">
                 <a href="https://www.linkedin.com/in/leonardo-miguel-7065662b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/whoisleonardo" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -33,42 +41,42 @@
         </div>
     </section>
     <section class="projetos" id="projetos">
-        <h2 class="heading">Projetos</h2>
+        <h2 class="heading" id="heading">Projetos</h2>
         <div class="projetos-container">
             <div class="projetos-box">
                 <div class="projetos-info">
                     <i class="bx bx-code"><img src="img/controller.png" alt=""></i>
-                    <h4>Blog Gamer</h4>
-                    <p>Site voltado para gamers, oferecendo informações detalhadas sobre jogos, suas trilhas sonoras e outros conteúdos relacionados. A plataforma possui um design responsivo e fácil de navegar, permitindo aos usuários explorar diferentes seções, como Jogos Populares, Gameplay, Trilhas Sonoras, Wiki e Loja. As principais funcionalidades incluem uma navegação lateral intuitiva, playlists do Spotify incorporadas para ouvir músicas de jogos, e a possibilidade de recomendar novos jogos. O site foi desenvolvido com tecnologias como HTML5, CSS3, JavaScript, e utiliza a API do Spotify para integrar as trilhas sonoras.</p>
+                    <h4 id="bloggamer">Blog Gamer</h4>
+                    <p id="gamerb">Site voltado para gamers, oferecendo informações detalhadas sobre jogos, suas trilhas sonoras e outros conteúdos relacionados. A plataforma possui um design responsivo e fácil de navegar, permitindo aos usuários explorar diferentes seções, como Jogos Populares, Gameplay, Trilhas Sonoras, Wiki e Loja. As principais funcionalidades incluem uma navegação lateral intuitiva, playlists do Spotify incorporadas para ouvir músicas de jogos, e a possibilidade de recomendar novos jogos. O site foi desenvolvido com tecnologias como HTML5, CSS3, JavaScript, e utiliza a API do Spotify para integrar as trilhas sonoras.</p>
                     <a href="https://legendary-bonbon-a542fd.netlify.app" class="btn" target="_blank">Site</a>
                 </div>
             </div>
             <div class="projetos-box">
                 <div class="projetos-info">
                     <i class="bx bx-code"><img src="img/car.png" alt=""></i>
-                    <h4>Aluguel de Carros</h4>
-                    <p>RoyalDrive é um site de aluguel de carros que oferece uma experiência fácil e intuitiva para os usuários encontrarem o veículo ideal para suas necessidades. Com um design moderno e responsivo, o site se adapta perfeitamente a diversos dispositivos, como desktops, tablets e smartphones. Os usuários podem pesquisar carros com base em localização e datas de aluguel, visualizando uma variedade de opções com imagens, preços e descrições detalhadas. Além disso, o site permite que os clientes leiam avaliações de outros usuários, ajudando a tomar decisões mais informadas. Para manter os usuários atualizados com ofertas e novidades, há também uma opção de inscrição na newsletter. Desenvolvido com tecnologias como HTML, CSS, JavaScript, Font Awesome e Boxicons, RoyalDrive oferece uma plataforma eficiente e atraente, garantindo uma experiência de usuário agradável em qualquer dispositivo.</p>
+                    <h4 id="alcarro">Aluguel de Carros</h4>
+                    <p id="carrental">RoyalDrive é um site de aluguel de carros que oferece uma experiência fácil e intuitiva para os usuários encontrarem o veículo ideal para suas necessidades. Com um design moderno e responsivo, o site se adapta perfeitamente a diversos dispositivos, como desktops, tablets e smartphones. Os usuários podem pesquisar carros com base em localização e datas de aluguel, visualizando uma variedade de opções com imagens, preços e descrições detalhadas. Além disso, o site permite que os clientes leiam avaliações de outros usuários, ajudando a tomar decisões mais informadas. Para manter os usuários atualizados com ofertas e novidades, há também uma opção de inscrição na newsletter. Desenvolvido com tecnologias como HTML, CSS, JavaScript, Font Awesome e Boxicons, RoyalDrive oferece uma plataforma eficiente e atraente, garantindo uma experiência de usuário agradável em qualquer dispositivo.</p>
                     <a href="https://royaldrives.netlify.app" class="btn" target="_blank">Site</a>
                 </div>
             </div>
         </div>
     </section>
     <section class="contato" id="contato">
-        <h2 class="heading">Contato</h2>
+        <h2 class="heading" id="cont">Contato</h2>
         <form id="contact-form">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" name="nome" placeholder="Nome Completo" required>
-                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" id="nome" name="nome" placeholder="Nome (Name)" required>
+                    <input type="email" name="email" placeholder="Email (E-mail)" required>
                 </div>
                 <div class="input-box">
-                    <input type="text" id="phone" name="telefone" placeholder="Número de Telefone" required>
-                    <input type="text" name="assunto" placeholder="Assunto" required>
+                    <input type="text" id="phone" name="telefone" placeholder="Telefone (Phone)" required>
+                    <input type="text" id="subject" name="assunto" placeholder="Assunto (Subject)" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
-                <input type="submit" value="Enviar" class="btn">
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem (Message)" required></textarea>
+                <input type="submit" value="➔" class="btn">
             </div>
         </form>
     </section>
@@ -80,10 +88,10 @@
         </div>
         <ul class="list">
             <li><a href="#">Home</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="#projetos">Projetos (Projects)</a></li>
+            <li><a href="#contato">Contato (Contact)</a></li>
         </ul>
-        <p class="copyright">
+        <p class="copyright" id="copyright">
             © Leonardo Miguel | Todos Direitos Reservados
         </p>
     </footer>
@@ -94,9 +102,5 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
     
-    <script>
-        $('#phone').mask('(00) 00000-0000');
-    </script>
-
 </body>
 </html>

@@ -193,16 +193,24 @@ span{
     box-shadow: 0 0 25px var(--base-clr);
 }
 
+.engs{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    display: inline;
+    position: relative;
+    color: var(--accent-clr);
+    text-wrap: none;
+}
+
 .digitando{
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
+    display: inline;
     position: relative;
-    width: 10%;
-}
-
-.digitando img{
-    margin-top: 13px;
+    color: var(--text-clr);
+    text-wrap: none;
 }
 
 .heading{
@@ -328,6 +336,16 @@ span{
     text-align: center;
     margin-top: 40px;
     font-size: 16px;
+}
+
+.flag-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.flag-button img {
+    width: 30px;
+    height: 20px;
 }
 
 @media (max-width:1024px){
