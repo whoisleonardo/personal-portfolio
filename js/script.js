@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const translations = {
         en: {
             title: 'Hello, I am Leonardo',
-            myname: 'Leonardo',
             digitando: 'I am ', engs: 'Software Engineer',
             description: 'I am a Software Engineering student at Universidade Positivo and a web developer with experience in freelance projects. I have knowledge of technologies such as HTML, CSS, JavaScript, C#, and SQL, always focusing on delivering efficient and high-quality solutions. I have experience in both front-end and back-end development and am constantly seeking new challenges to enhance my skills.',
             heading: 'Projects',
@@ -35,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         br: {
             title: 'Olá, sou Leonardo',
-            myname: 'Leonardo',
             digitando: 'Sou um ', engs: 'Engenheiro de Software',
             description: 'Sou estudante de Engenharia de Software na Universidade Positivo e programador web com experiência em projetos freelance. Tenho conhecimento em tecnologias como HTML, CSS, JavaScript, C# e SQL, focando sempre em entregar soluções eficientes e de qualidade. Tenho experiência tanto no desenvolvimento front-end quanto back-end e estou sempre em busca de novos desafios para aprimorar minhas habilidades.',
             heading: 'Projetos',
