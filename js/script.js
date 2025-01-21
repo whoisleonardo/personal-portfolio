@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         en: {
             title: 'Hello, I am Leonardo',
             digitando: 'I am ', engs: 'Software Engineer',
-            description: 'I am a Software Engineering student at Universidade Positivo and a web developer with experience in freelance projects. I have knowledge of technologies such as HTML, CSS, JavaScript, C#, and SQL, always focusing on delivering efficient and high-quality solutions. I have experience in both front-end and back-end development and am constantly seeking new challenges to enhance my skills.',
+            description: 'I am a Software Engineering student at Universidade Positivo and a web developer with experience in freelance projects. I have knowledge of technologies such as HTML, CSS, JavaScript, C, SQL, Python, React and Angular, always focusing on delivering efficient and high-quality solutions. I have experience in both front-end and back-end development and am constantly seeking new challenges to enhance my skills.',
             heading: 'Projects',
             bloggamer: 'Gamer Blog',
             gamerb: 'A website aimed at gamers, offering detailed information about games, their soundtracks, and other related content. The platform features a responsive and easy-to-navigate design, allowing users to explore different sections such as Popular Games, Gameplay, Soundtracks, Wiki, and Store. Key features include intuitive sidebar navigation, embedded Spotify playlists for listening to game music, and the ability to recommend new games. The site was developed using technologies such as HTML5, CSS3, JavaScript, and integrates the Spotify API to include the soundtracks.',
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         br: {
             title: 'Olá, sou Leonardo',
             digitando: 'Sou um ', engs: 'Engenheiro de Software',
-            description: 'Sou estudante de Engenharia de Software na Universidade Positivo e programador web com experiência em projetos freelance. Tenho conhecimento em tecnologias como HTML, CSS, JavaScript, C# e SQL, focando sempre em entregar soluções eficientes e de qualidade. Tenho experiência tanto no desenvolvimento front-end quanto back-end e estou sempre em busca de novos desafios para aprimorar minhas habilidades.',
+            description: 'Sou estudante de Engenharia de Software na Universidade Positivo e programador web com experiência em projetos freelance. Tenho conhecimento em tecnologias como HTML, CSS, JavaScript, C, SQL, Python, React e Angular, focando sempre em entregar soluções eficientes e de qualidade. Tenho experiência tanto no desenvolvimento front-end quanto back-end e estou sempre em busca de novos desafios para aprimorar minhas habilidades.',
             heading: 'Projetos',
             bloggamer: 'Blog Gamer',
             gamerb: 'Site voltado para gamers, oferecendo informações detalhadas sobre jogos, suas trilhas sonoras e outros conteúdos relacionados. A plataforma possui um design responsivo e fácil de navegar, permitindo aos usuários explorar diferentes seções, como Jogos Populares, Gameplay, Trilhas Sonoras, Wiki e Loja. As principais funcionalidades incluem uma navegação lateral intuitiva, playlists do Spotify incorporadas para ouvir músicas de jogos, e a possibilidade de recomendar novos jogos. O site foi desenvolvido com tecnologias como HTML5, CSS3, JavaScript, e utiliza a API do Spotify para integrar as trilhas sonoras.',
