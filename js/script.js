@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
             digitando: 'I am ', engs: 'Software Engineer',
             description: 'I am a Software Engineering student at Universidade Positivo and a web developer with experience in freelance projects. I have knowledge of technologies such as HTML, CSS, JavaScript, C, Java, SQL, React and Angular, always focusing on delivering efficient and high-quality solutions. I have experience in both front-end and back-end development and am constantly seeking new challenges to enhance my skills.',
             heading: 'Projects',
+            furiabot: 'Furia Chat Bot',
+            chatfuria: 'FuriaBot is a Telegram bot developed in Java, created to provide information about the FURIA eSports team. It uses the Telegram API and structured data in a JSON file to respond to user commands quickly and interactively. With simple commands, the bot displays the team\'s next game, current lineup, last match result, titles won, social media links, and a link for more information. When starting the conversation with the /hello command, users receive buttons that facilitate navigation through available features. This project was an opportunity to apply my knowledge in Java, API integration, JSON file reading, and building a functional and direct user experience within Telegram. FuriaBot represents my ability to create useful and well-structured solutions aimed at specific audiences.',
             bloggamer: 'Gamer Blog',
             gamerb: 'A website aimed at gamers, offering detailed information about games, their soundtracks, and other related content. The platform features a responsive and easy-to-navigate design, allowing users to explore different sections such as Popular Games, Gameplay, Soundtracks, Wiki, and Store. Key features include intuitive sidebar navigation, embedded Spotify playlists for listening to game music, and the ability to recommend new games. The site was developed using technologies such as HTML5, CSS3, JavaScript, and integrates the Spotify API to include the soundtracks.',
             alcarro: 'Car Rental',
@@ -37,6 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
             digitando: 'Sou um ', engs: 'Engenheiro de Software',
             description: 'Sou estudante de Engenharia de Software na Universidade Positivo e programador web com experiência em projetos freelance. Tenho conhecimento em tecnologias como HTML, CSS, JavaScript, C, Java, SQL, React e Angular, focando sempre em entregar soluções eficientes e de qualidade. Tenho experiência tanto no desenvolvimento front-end quanto back-end e estou sempre em busca de novos desafios para aprimorar minhas habilidades.',
             heading: 'Projetos',
+            furiabot: 'Furia Chat Bot',
+            chatfuria: 'O FuriaBot é um bot para o Telegram desenvolvido em Java, criado para fornecer informações sobre o time de eSports FURIA. Ele utiliza a API do Telegram e dados estruturados em um arquivo JSON para responder aos comandos dos usuários de forma rápida e interativa. Com comandos simples, o bot exibe o próximo jogo da equipe, o lineup atual, o resultado da última partida, títulos conquistados, redes sociais e um link com mais informações. Ao iniciar a conversa com o comando /ola, o usuário recebe botões que facilitam a navegação pelas funcionalidades disponíveis. Esse projeto foi uma oportunidade de aplicar meus conhecimentos em Java, integração com APIs, leitura de arquivos JSON e construção de uma experiência de usuário funcional e direta dentro do Telegram. O FuriaBot representa minha capacidade de criar soluções úteis e bem estruturadas voltadas a públicos específicos.',
             bloggamer: 'Blog Gamer',
             gamerb: 'Site voltado para gamers, oferecendo informações detalhadas sobre jogos, suas trilhas sonoras e outros conteúdos relacionados. A plataforma possui um design responsivo e fácil de navegar, permitindo aos usuários explorar diferentes seções, como Jogos Populares, Gameplay, Trilhas Sonoras, Wiki e Loja. As principais funcionalidades incluem uma navegação lateral intuitiva, playlists do Spotify incorporadas para ouvir músicas de jogos, e a possibilidade de recomendar novos jogos. O site foi desenvolvido com tecnologias como HTML5, CSS3, JavaScript, e utiliza a API do Spotify para integrar as trilhas sonoras.',
             alcarro: 'Aluguel de Carros',
@@ -56,6 +60,8 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('engs').textContent = translation.engs;
             document.getElementById('description').textContent = translation.description;
             document.getElementById('heading').textContent = translation.heading;
+            document.getElementById('furiabot').textContent = translation.furiabot;
+            document.getElementById('chatfuria').textContent = translation.chatfuria;
             document.getElementById('bloggamer').textContent = translation.bloggamer;
             document.getElementById('gamerb').textContent = translation.gamerb;
             document.getElementById('alcarro').textContent = translation.alcarro;
